@@ -1,4 +1,4 @@
-import steamlit as st
+import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 st.tilte("Mi tablero de dibujo")
