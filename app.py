@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-st.tilte("Mi tablero de dibujo")
+st.title("Mi tablero de dibujo")
 with st.sidebar:
   st.subheader("Propiedades")
   drawing_mode = st.sidebar.selectbox(
