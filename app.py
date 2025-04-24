@@ -10,7 +10,7 @@ with st.sidebar:
   )
   stroke_width= st.slider('Selecciona el ancho', 1,30,15)
   stroke_color= st.color_picker("color de trazo","#ffffff")
-  bg_color= '#000000000'
+  bg_color= st.color_picker("color de trazo","#0000000")
 
 canvas_result = st_canvas(
   fill_color="rgba(255,165,0,0.3)", #fixed fill color with some opacity
