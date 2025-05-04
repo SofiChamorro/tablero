@@ -30,4 +30,4 @@ canvas_result = st_canvas(
     key="canvas",
 )
 
-)
+
